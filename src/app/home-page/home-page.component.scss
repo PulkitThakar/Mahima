@@ -1,0 +1,23 @@
+.body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    background-color: white;
+
+}
+
+.hero-page {
+    margin: 0 auto;
+    aspect-ratio: 16/9;
+    background-image: url("HeadBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-image-slice: 1;    
+}
+
+.border-gradient-gold {
+    border-image-source: linear-gradient(to right, #865F34, #EDCDAC);
+}
