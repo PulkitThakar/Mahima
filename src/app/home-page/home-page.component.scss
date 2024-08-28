@@ -9,7 +9,7 @@
 .hero-page {
     margin: 0 auto;
     aspect-ratio: 16/9;
-    background-image: url("HeadBackground.png");
+    background-image: url("/images/HeadBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -20,4 +20,39 @@
 
 .border-gradient-gold {
     border-image-source: linear-gradient(to right, #865F34, #EDCDAC);
+}
+
+
+// TODO
+// 1. What will be the size of "Vismayi"?
+// 2. Fallback font for Vismayi
+// 3. Font for subheading "by Mahima"
+// 4. Fall back for subheading.
+// 5. size for subheading.
+
+.hero-title-name {
+    font-family: 'Doppelganger';
+    font-size: 200px;
+    font-weight: 500;
+    color: #EDCDAC;
+    margin: 0;
+    background-image: linear-gradient(115deg, #EDCDAC, #865F34);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.hero-title-subheading {
+    color: #FFFFFF;
+    background-color: gray;
+    margin: 0;
+}
+
+.hero-flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
