@@ -10,6 +10,6 @@ import { Component } from '@angular/core';
 export class HomePageComponent {
 
   title : string = "Vismayi";
-  subheading: string = "by MAHIMA"
+  subheading: string = "By Mahima"
 
 }
