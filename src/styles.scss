@@ -11,8 +11,8 @@ body::-webkit-scrollbar {
 @font-face {
     font-family: 'Doppelganger';
     src: url('/fonts/DoppelgangerDisplay.otf') format('opentype'),
-        url('/fonts/subset-Doppelganger-Display.woff2') format('woff2'),
-        url('/fonts/subset-Doppelganger-Display.woff') format('woff');
+         url('/fonts/subset-Doppelganger-Display.woff2') format('woff2'),
+         url('/fonts/subset-Doppelganger-Display.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -21,8 +21,8 @@ body::-webkit-scrollbar {
 @font-face {
     font-family: 'Buda';
     src: url('/fonts/Buda-Light.woff2') format('woff2'),
-        url('/fonts/Buda-Light.woff') format('woff'),
-        url('/fonts/Buda-Light.ttf') format('truetype');
+         url('/fonts/Buda-Light.woff') format('woff'),
+         url('/fonts/Buda-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;

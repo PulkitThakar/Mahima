@@ -18,20 +18,11 @@
     border-image-source: linear-gradient(to right, #865F34, #EDCDAC);
 }
 
-
-// TODO
-// 1. What will be the size of "Vismayi"?
-// 2. Fallback font for Vismayi
-// 3. Font for subheading "by Mahima"
-// 4. Fall back for subheading.
-// 5. size for subheading.
-
 .hero-flex-container {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-
 
 .hero-flex-container-title {
     flex: 1;
@@ -85,11 +76,3 @@
     background-color: transparent;
     color: white;
 }
-
-// .dummy {
-//     background-color: black;
-//     height: 1px;
-//     width: 50%;
-//     position: absolute;
-//     top: 50%;
-// }
