@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #420D0F;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Doppelganger';
+    src: url('/fonts/DoppelgangerDisplay.otf') format('opentype'),
+        url('/fonts/subset-Doppelganger-Display.woff2') format('woff2'),
+        url('/fonts/subset-Doppelganger-Display.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
