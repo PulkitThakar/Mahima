@@ -17,13 +17,3 @@ body::-webkit-scrollbar {
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Buda';
-    src: url('/fonts/Buda-Light.woff2') format('woff2'),
-        url('/fonts/Buda-Light.woff') format('woff'),
-        url('/fonts/Buda-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}

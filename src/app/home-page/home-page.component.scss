@@ -39,7 +39,6 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    position: relative;
 }
 
 .hero-title-name {
@@ -55,7 +54,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
-    background-color: white;
+    // position: relative;
 }
 
 .hero-title-subheading {
@@ -63,15 +62,13 @@
     font-weight: 100;
     font-style: normal;
     font-size: 40px;
-    // background-color: white;
-    color: white;
-    position: absolute;
-    transform: translate(-31%, 167%);
+    // color: white;
+    // position: absolute;
 }
 
 .hero-container-inquire {
     position: absolute;
-    bottom: 75px;
+    bottom: 64px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -88,7 +85,7 @@
 
 // .dummy {
 //     background-color: black;
-//     height: 1px;
+//     height: 10px;
 //     width: 50%;
 //     position: absolute;
 //     top: 50%;
